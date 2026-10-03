@@ -1,0 +1,31 @@
+.project-selector{min-height:100vh;padding:8vh 7vw 30px;background:radial-gradient(ellipse at 50% -20%,#203b66 0,#0a1428 45%,#070b16 100%);color:#f3f6ff;display:flex;flex-direction:column;justify-content:center}
+.selector-heading{text-align:center;margin:0 auto 40px}
+.selector-mark{width:48px;height:48px;border-radius:15px;margin:0 auto 18px;display:grid;place-items:center;background:linear-gradient(135deg,#48b9ff,#8a70ff);box-shadow:0 0 35px #4e8bff55}
+.selector-kicker{font-size:10px;letter-spacing:3px;color:#92b8ec;margin:0 0 12px}
+.selector-heading h1{font-size:clamp(32px,5vw,48px);letter-spacing:-1.5px;margin:0}
+.selector-subtitle{color:#a7b7d0;margin:12px 0 0;font-size:15px}
+.project-options{width:min(100%,1040px);margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.project-option{text-align:left;color:inherit;border:1px solid #2b3f5b;border-radius:20px;padding:25px;background:linear-gradient(145deg,#121e34,#0c1424);min-height:345px;position:relative;overflow:hidden;transition:transform .2s,border-color .2s,box-shadow .2s}
+.project-option:hover{transform:translateY(-5px);border-color:#7d8fff;box-shadow:0 20px 60px #0006}
+.biology-option:before,.geoscience-option:before{content:"";position:absolute;width:210px;height:210px;border-radius:50%;right:-78px;top:35px;opacity:.15;filter:blur(2px)}
+.biology-option:before{background:#bd66ff}.geoscience-option:before{background:#31baff}
+.option-topline{display:flex;align-items:center;justify-content:space-between;color:#90a0b8}
+.option-number{font-size:10px;letter-spacing:2px;font-weight:800}
+.option-icon{width:56px;height:56px;display:grid;place-items:center;border:1px solid #ffffff18;border-radius:16px;margin:32px 0 20px}
+.biology-option .option-icon{color:#df9aff;background:#9f47cb24}
+.geoscience-option .option-icon{color:#85d9ff;background:#3291d126}
+.project-option h2{font-size:27px;margin:0 0 5px}
+.project-option h3{font-size:16px;margin:0 0 12px;color:#d0d9e9}
+.project-option>p{font-size:13px;line-height:1.65;color:#97a7bf;max-width:440px;margin:0}
+.option-tags{display:flex;gap:8px;margin-top:20px}
+.option-tags span{display:flex;align-items:center;gap:6px;padding:7px 9px;border-radius:8px;background:#ffffff09;color:#becbe0;font-size:11px}
+.option-action{display:flex;align-items:center;gap:7px;margin-top:25px;font-size:13px;font-weight:700;color:#d7c5ff}
+.geoscience-option .option-action{color:#9bdcff}
+.selector-footnote{color:#8694aa;text-align:center;font-size:11px;margin:28px 0 0}
+.selector-footnote code{color:#bbc8dc}
+.selector-footnote a{color:#c9a2ff;margin-left:5px}
+.geo-project-switch{position:fixed;left:18px;bottom:18px;z-index:50;display:flex;align-items:center;gap:6px;padding:9px 12px;border:1px solid #38506b;border-radius:9px;background:#09182aee;color:#d4e2f3;font-size:11px;box-shadow:0 5px 20px #0005}
+.geo-project-switch:hover{border-color:#70bdff;color:#fff}
+.geo-admin-link{padding:7px 9px;border:1px solid #2d4a66;border-radius:8px;color:#b9d5ed;font-size:10px;text-decoration:none;white-space:nowrap}
+.geo-admin-link:hover{border-color:#63baf3;color:#fff}
+@media(max-width:700px){.project-selector{padding:45px 18px 25px;justify-content:flex-start}.selector-heading{margin-bottom:28px}.project-options{grid-template-columns:1fr;gap:14px}.project-option{min-height:auto;padding:21px}.option-icon{margin:20px 0 16px}.option-action{margin-top:18px}}

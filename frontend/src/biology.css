@@ -1,0 +1,36 @@
+.biology-page{min-height:100vh;background:radial-gradient(ellipse at 52% -20%,#263465 0,#10162b 45%,#090d19 100%);color:#f1f2fc;padding:0 7vw 30px}
+.biology-header{height:76px;display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;border-bottom:1px solid #ffffff12}
+.biology-back{justify-self:start;display:flex;align-items:center;gap:7px;border:0;background:none;color:#b2c1d8;padding:8px 0}
+.biology-brand{display:flex;gap:10px;align-items:center;justify-self:center}
+.biology-brand>span{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;color:#e7c2ff;background:#a347d72e}
+.biology-brand b,.biology-brand small{display:block}.biology-brand b{font-size:14px}.biology-brand small{font-size:10px;color:#98a6bf;margin-top:3px}
+.biology-live{justify-self:end;font-size:10px;color:#c1cbe0;display:flex;align-items:center;gap:7px}
+.biology-live i,.biology-storage>svg{width:8px;height:8px;border-radius:50%;background:#fb7185;display:block}.biology-live i.is-online{background:#4de39a;box-shadow:0 0 10px #4de39a}
+.biology-hero{max-width:950px;margin:58px auto 35px}
+.biology-eyebrow{font-size:10px;letter-spacing:2.5px;font-weight:800;color:#c896ff;margin:0 0 12px}
+.biology-hero h1{font-size:clamp(34px,5.5vw,57px);line-height:1.06;letter-spacing:-1.5px;margin:0}
+.biology-hero h1 em{font-style:normal;color:#c691ff}
+.biology-hero>p:not(.biology-eyebrow){max-width:760px;color:#acb7cf;font-size:14px;line-height:1.75;margin:18px 0}
+.biology-flow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;color:#d7c3f1;font-size:11px;margin-top:22px}
+.biology-flow span{padding:8px 11px;border:1px solid #ffffff17;border-radius:8px;background:#ffffff07}
+.biology-flow b{color:#8470a6}
+.biology-content{max-width:950px;margin:auto;display:grid;grid-template-columns:1.35fr .8fr;gap:16px}
+.biology-upload,.biology-aside,.biology-results{background:linear-gradient(145deg,#151c31,#101727);border:1px solid #ffffff17;border-radius:16px;padding:23px}
+.biology-section-title{display:flex;align-items:flex-start;gap:11px}.biology-section-title>svg{color:#d9a8ff;margin-top:2px}.biology-section-title h2,.biology-aside h2{font-size:16px;margin:0}.biology-section-title p{margin:5px 0 0;color:#9ca9c0;font-size:11px}
+.biology-drop{margin-top:22px;min-height:144px;border:1px dashed #765a94;border-radius:12px;background:#9e58cf0b;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#d5adf4;cursor:pointer;text-align:center;padding:18px}
+.biology-drop input{display:none}.biology-drop b{font-size:13px;color:#f0e3fc;max-width:100%;overflow-wrap:anywhere}.biology-drop span{font-size:10px;color:#a8a4bd}
+.biology-format{margin:14px 0;display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;font-size:10px;color:#aab7cd}
+.biology-format b{grid-column:1/-1;color:#d4d9e7}.biology-format code{color:#e4cafb;background:#0b1020;border-radius:6px;padding:7px;overflow:auto}.biology-format a{color:#c897ff;white-space:nowrap}
+.biology-submit{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:9px;padding:11px;background:linear-gradient(100deg,#a34be1,#6f67ee);color:#fff;font-weight:700;font-size:12px;cursor:pointer}.biology-submit:disabled{opacity:.45;cursor:not-allowed}
+.biology-aside-icon{width:38px;height:38px;border-radius:11px;background:#4baaff21;color:#91d2ff;display:grid;place-items:center;margin-bottom:16px}
+.biology-aside p{font-size:11px;color:#aab6ca;line-height:1.7}.biology-aside p code{color:#e0c5ff}
+.biology-storage-note{font-size:10px;color:#c5d4e7;background:#0c1221;border-radius:8px;padding:10px;display:flex;align-items:center;gap:8px}.biology-storage-note span{width:7px;height:7px;border-radius:50%;background:#fbab50}
+.biology-limit{display:flex;gap:8px;margin-top:18px;padding-top:14px;border-top:1px solid #ffffff12;color:#ffdb9d;font-size:10px;line-height:1.5}.biology-limit svg{flex:none}
+.biology-error{color:#ffb0b0;background:#4f19242e;border:1px solid #a343534f;padding:10px;border-radius:8px;font-size:11px}
+.biology-spin{animation:biology-rotate 1s linear infinite}@keyframes biology-rotate{to{transform:rotate(360deg)}}
+.biology-results{max-width:950px;margin:17px auto 0}.biology-result-heading{display:flex;align-items:center;justify-content:space-between}.biology-result-heading .biology-eyebrow{margin-bottom:6px}.biology-result-heading h2{margin:0;font-size:20px}.biology-storage{display:flex;align-items:center;gap:7px;font-size:10px;color:#b6c7df;background:#ffffff09;padding:8px;border-radius:8px}.biology-storage>svg{color:#8edaff;background:none;width:15px;height:15px}
+.biology-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.biology-metrics>div{background:#0c1220;border:1px solid #ffffff0d;border-radius:10px;padding:13px}.biology-metrics small,.biology-metrics b{display:block}.biology-metrics small{color:#9ca9c0;font-size:10px}.biology-metrics b{font-size:20px;margin-top:7px}
+.biology-groups{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.biology-groups span{border:1px solid #ffffff16;border-radius:8px;padding:8px 10px;color:#b2bdd1;font-size:10px}.biology-groups b{margin-right:7px;color:#e2c7fc}
+.biology-s3-warning{font-size:11px;color:#ffd494;background:#4e351c33;padding:10px;border-radius:8px}.biology-genes{margin-top:20px}.biology-genes h3{font-size:13px;margin:0 0 10px}.biology-table-wrap{overflow:auto}.biology-genes table{width:100%;border-collapse:collapse;font-size:10px}.biology-genes th,.biology-genes td{text-align:left;padding:9px;border-bottom:1px solid #ffffff11;white-space:nowrap}.biology-genes th{color:#aebbd0}.biology-genes td{color:#d9dcea}.biology-disclaimer{font-size:10px;line-height:1.6;color:#ffd89a;margin:14px 0 0}
+.biology-footer{max-width:950px;margin:23px auto 0;text-align:center;color:#78849a;font-size:10px}
+@media(max-width:720px){.biology-page{padding:0 16px 25px}.biology-header{height:64px;grid-template-columns:1fr 1fr}.biology-brand{display:none}.biology-content{grid-template-columns:1fr}.biology-hero{margin:38px auto 25px}.biology-flow{gap:7px}.biology-flow span{font-size:10px}.biology-flow b{display:none}.biology-upload,.biology-aside,.biology-results{padding:17px}.biology-metrics{grid-template-columns:1fr}.biology-result-heading{align-items:flex-start;gap:12px;flex-direction:column}}

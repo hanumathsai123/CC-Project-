@@ -1,0 +1,9 @@
+sample_id,TP53,EGFR,BRCA1,diagnosis
+N01,2.1,1.8,2.5,Normal
+N02,2.4,1.6,2.3,Normal
+N03,1.9,2.0,2.7,Normal
+N04,2.2,1.7,2.4,Normal
+T01,7.8,8.5,3.1,Tumor
+T02,8.2,7.9,2.8,Tumor
+T03,7.6,8.7,3.4,Tumor
+T04,8.4,8.1,3.0,Tumor

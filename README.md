@@ -109,3 +109,4 @@ Replace the placeholder team member names in `backend/main.py` when the final na
 
 React refreshes API health and project notifications every 30 seconds. Live satellite discovery calls the Copernicus Data Space STAC catalog for Sentinel-2 Level-2A products. The system treats “real-time” as current/near-real-time Earth-observation catalog access and time-stamped satellite observations, not continuous live video.
 # CC-Project
+# CC-Project-
